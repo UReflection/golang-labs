@@ -6,7 +6,7 @@ var x int = 2999
 
 func main() {
 	if x <= 1 {
-		fmt.Println("Oh...dear")
+		fmt.Println("Sergey, I think I did it")
 	} else if x == 2 || x == 3 || x == 5 || x == 7 {
 		fmt.Println("Ueaaasss", x, "is a PRIME number")
 	} else if x%2 != 0 && x%3 != 0 && x%5 != 0 && x%7 != 0 {
